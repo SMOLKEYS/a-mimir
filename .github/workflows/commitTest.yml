@@ -1,4 +1,4 @@
-name: Commit Testing
+name: amimir
 
 on: [push]
 
@@ -8,16 +8,16 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: Set up PATH
+    - name: amimir
       run: |
         echo "${ANDROID_HOME}/build-tools/30.0.1" >> $GITHUB_PATH
-    - name: Set up JDK 17
+    - name: amimir
       uses: actions/setup-java@v1
       with:
         java-version: 17
-    - name: Build mod jar
-      run: ./gradlew deploy
-    - name: Upload built jar file
+    - name: amimir
+      run: chmod +x ./gradlew; ./gradlew deploy
+    - name: amimir
       uses: actions/upload-artifact@v2
       with:
         name: ${{ github.event.repository.name }}

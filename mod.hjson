@@ -1,23 +1,23 @@
 #the mod name as displayed in-game
-displayName: "Java Mod Template"
+displayName: "a mimir"
 
 #the internal name of your mod
-name: "example-java-mod"
+name: "a-mimir"
 
 #your name
-author: "You"
+author: "SMOLKEYS"
 
 #the fully qualified main class of the mod
-main: "example.ExampleJavaMod"
+main: "amimir.Amimir"
 
 #the mod description as seen in the mod dialog
-description: "A Mindustry Java mod template."
+description: "a mimir no bueno"
 
 #the mod version
-version: 1.0
+version: amimir
 
 #the minimum game build required to run this mod
-minGameVersion: 129
+minGameVersion: 135
 
 #this is a java mod
 java: true
